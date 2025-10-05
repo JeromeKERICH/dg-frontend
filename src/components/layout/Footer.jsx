@@ -59,20 +59,20 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-amber-300 mt-1 flex-shrink-0" />
                 <p className="text-gray-100 text-lg">
-                  123 Wellness Street<br />
-                  Health City, HC 12345
+                  Sagaas Business Centre Street<br />
+                  Eldoret City, 3RD Floor, Room 303
                 </p>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-amber-300 flex-shrink-0" />
                 <a href="tel:+1234567890" className="text-gray-100 hover:text-amber-300 hover:underline transition-colors duration-200 text-lg">
-                  +1 (234) 567-890
+                  +254 (789) 748-402
                 </a>
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-amber-300 flex-shrink-0" />
                 <a href="mailto:info@dgconsult.com" className="text-gray-100 hover:text-amber-300 hover:underline transition-colors duration-200 text-lg">
-                  info@dgconsult.com
+                  info@dgconsultlimited.co.ke
                 </a>
               </div>
             </div>

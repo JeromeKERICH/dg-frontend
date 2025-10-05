@@ -47,10 +47,9 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative bg-gradient-to-br from-white via-amber-50 to-coral-50 py-10 lg:py-28 overflow-hidden">
+    <section className="relative bg-gradient-to-br from-amber-200  to-amber-100 py-10 lg:py-28 overflow-hidden">
       {/* Background decorative elements */}
-      <div className="absolute top-0 right-0 w-72 h-72 bg-coral-100 rounded-full -translate-y-36 translate-x-36 opacity-60"></div>
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-amber-100 rounded-full translate-y-48 -translate-x-48 opacity-50"></div>
+      
       <div className="container mx-auto px-4 max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}

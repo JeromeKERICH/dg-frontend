@@ -7,6 +7,9 @@ import Wellness from "./pages/Wellness";
 import FreshG from "./pages/FreshG";
 import Retirees from "./pages/Retirees";
 import Cooperates from "./pages/Cooperates";
+import About from "./pages/About";
+import Mentorship from "./pages/Mentorship";
+import Shop from "./pages/Shop";
 
 
 function App() {
@@ -21,6 +24,9 @@ function App() {
           <Route path="/freshgrad" element={<FreshG/>}/>
           <Route path="/retirees" element={<Retirees/>}/>
           <Route path="/corporates" element={<Cooperates/>}/>
+          <Route path="/about" element={<About/>}/>
+          <Route path="/mentorship" element={<Mentorship/>}/>
+          <Route path="/shop" element={<Shop/>}/>
     
           
         
