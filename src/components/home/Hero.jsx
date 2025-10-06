@@ -70,7 +70,7 @@ const Hero = () => {
                 <ChevronRight className="w-4 h-4 ml-2" />
               </Link>
               
-              <Link to="/mentorship" className="border border-amber-600 text-amber-600 hover:bg-amber-600 hover:text-white px-8 py-3 rounded-lg font-medium transition-all duration-200">
+              <Link to="/mentorship" className="border border-amber-600 text-center text-amber-600 hover:bg-amber-600 hover:text-white px-8 py-3 rounded-lg font-medium transition-all duration-200">
                 Explore Mentorship
               </Link>
             </div>
