@@ -41,15 +41,15 @@ const RetireHero = () => {
             <div className="flex items-center gap-8 mt-8 pt-8 border-t border-gray-200">
               <div>
                 <div className="text-2xl font-light text-amber-600">20+</div>
-                <div className="text-sm text-gray-600">Graduates Helped</div>
+                <div className="text-sm text-gray-600">Retirees Helped</div>
               </div>
               <div>
                 <div className="text-2xl font-light text-amber-600">94%</div>
                 <div className="text-sm text-gray-600">Reinvention Rate</div>
               </div>
               <div>
-                <div className="text-2xl font-light text-amber-600">15+</div>
-                <div className="text-sm text-gray-600">Wellness Partners</div>
+                <div className="text-2xl font-light text-amber-600">5+</div>
+                <div className="text-sm text-gray-600">Retirees Partners</div>
               </div>
               
             </div>
