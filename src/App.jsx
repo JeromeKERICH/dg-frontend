@@ -10,6 +10,8 @@ import Cooperates from "./pages/Cooperates";
 import About from "./pages/About";
 import Mentorship from "./pages/Mentorship";
 import Shop from "./pages/Shop";
+import ContactPage from "./pages/Contact";
+
 
 
 function App() {
@@ -27,6 +29,7 @@ function App() {
           <Route path="/about" element={<About/>}/>
           <Route path="/mentorship" element={<Mentorship/>}/>
           <Route path="/shop" element={<Shop/>}/>
+          <Route path="/contact" element={<ContactPage/>}/>
     
           
         

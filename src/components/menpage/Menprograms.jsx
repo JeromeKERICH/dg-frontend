@@ -1,6 +1,7 @@
 // MentorshipPaths.jsx
 import React, { useState, useRef } from 'react';
 import { Heart, GraduationCap, Users, Building, ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const MentorshipPaths = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -12,32 +13,32 @@ const MentorshipPaths = () => {
       title: "Wellness Mentorship",
       focus: "Lifestyle transformation, health balance, and sustainable wellness practices.",
       idealFor: "Individuals looking to improve overall health and wellbeing.",
-      path: "/wellness-mentorship",
-      image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+      path: "/wellness",
+      image: "/assets/welm.jpg"
     },
     {
       icon: GraduationCap,
       title: "Fresh Graduates Mentorship",
       focus: "Career transition, purpose discovery, and entrepreneurship guidance.",
       idealFor: "Recent graduates seeking direction and confidence after college.",
-      path: "/fresh-graduates",
-      image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+      path: "/freshgrad",
+      image: "/assets/gradm.jpg"
     },
     {
       icon: Users,
       title: "Retirees Mentorship",
       focus: "Reimagining purpose, health management, and life fulfillment post-retirement.",
       idealFor: "Retired professionals or soon-to-retire individuals.",
-      path: "/retirees-program",
-      image: "https://images.unsplash.com/photo-1507652313519-d6e7a6c9db61?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+      path: "/retirees",
+      image: "/assets/retm.jpg"
     },
     {
       icon: Building,
       title: "Corporate Mentorship",
       focus: "Leadership, team building, and workplace wellness programs.",
       idealFor: "Organizations seeking to empower employees and leaders.",
-      path: "/corporate-programs",
-      image: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+      path: "/corporates",
+      image: "/assets/corpm.jpg"
     }
   ];
 
@@ -105,10 +106,10 @@ const MentorshipPaths = () => {
                     </div>
                   </div>
 
-                  <button className="mt-6 text-amber-600 hover:text-amber-700 font-medium text-sm transition-colors duration-200 flex items-center">
+                  <Link to="/" className="mt-6 text-amber-600 hover:text-amber-700 font-medium text-sm transition-colors duration-200 flex items-center">
                     Explore Program
                     <ArrowRight className="w-4 h-4 ml-2" />
-                  </button>
+                  </Link>
                 </div>
               </div>
             );

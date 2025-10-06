@@ -67,10 +67,10 @@ const BioScanSection = () => {
 
         {/* CTA Section */}
         <div className="text-center mt-12">
-          <button className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-lg font-medium transition-colors duration-200 inline-flex items-center">
+          <a href='https://calendly.com/dgconsultlimted/30min' className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-lg font-medium transition-colors duration-200 inline-flex items-center">
             <Calendar className="w-5 h-5 mr-3" />
             Book Your Screening Now
-          </button>
+          </a>
           
           {/* Additional Info */}
           <p className="text-gray-500 text-sm mt-4">

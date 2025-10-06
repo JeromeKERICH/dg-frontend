@@ -3,7 +3,7 @@ import React from 'react';
 
 const AboutHero = () => {
   return (
-    <section className="py-10 lg:py-15 bg-gradient-to-br from-amber-2000  to-amber-100">
+    <section className="py-10 lg:py-15 bg-gradient-to-br from-amber-200  to-amber-100">
       <div className="container mx-auto px-4 max-w-5xl">
         <div className="grid items-center">
           {/* Text Content */}

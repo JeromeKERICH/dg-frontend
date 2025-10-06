@@ -1,6 +1,7 @@
 // Hero.jsx
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -8,19 +9,19 @@ const Hero = () => {
   const slides = [
     {
       id: 1,
-      image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      image: "/assets/h1.jpg",
       title: "Premium Supplements",
       description: "Organic wellness for your body"
     },
     {
       id: 2,
-      image: "https://images.unsplash.com/photo-1521791055366-0d553872125f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80",
+      image: "/assets/h3.jpg",
       title: "Expert Mentorship",
       description: "Guidance for life transformation"
     },
     {
       id: 3,
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      image: "/assets/16.jpg",
       title: "Renewed Hope",
       description: "Your journey to fulfillment starts here"
     }
@@ -34,13 +35,7 @@ const Hero = () => {
     return () => clearInterval(interval);
   }, [slides.length]);
 
-  const nextSlide = () => {
-    setCurrentSlide((prev) => (prev + 1) % slides.length);
-  };
-
-  const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
-  };
+ 
 
   const goToSlide = (index) => {
     setCurrentSlide(index);
@@ -70,14 +65,14 @@ const Hero = () => {
             
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-3 rounded-lg font-medium transition-colors duration-200 flex items-center justify-center">
+              <Link to="/shop" className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-3 rounded-lg font-medium transition-colors duration-200 flex items-center justify-center">
                 Shop Now
                 <ChevronRight className="w-4 h-4 ml-2" />
-              </button>
+              </Link>
               
-              <button className="border border-amber-600 text-amber-600 hover:bg-amber-600 hover:text-white px-8 py-3 rounded-lg font-medium transition-all duration-200">
-                Book Mentorship
-              </button>
+              <Link to="/mentorship" className="border border-amber-600 text-amber-600 hover:bg-amber-600 hover:text-white px-8 py-3 rounded-lg font-medium transition-all duration-200">
+                Explore Mentorship
+              </Link>
             </div>
           </div>
           

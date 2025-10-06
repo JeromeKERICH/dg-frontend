@@ -60,7 +60,7 @@ const FreshGradHero = () => {
           <div className="relative">
             <div className="rounded-xl overflow-hidden bg-gray-100">
               <img
-                src="/assets/grad.PNG"
+                src="/assets/grad.jpg"
                 alt="Fresh graduates transitioning to career"
                 className="w-full h-80 lg:h-96 object-cover"
               />

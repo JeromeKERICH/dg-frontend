@@ -1,38 +1,39 @@
 // FeaturedProducts.jsx
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const FeaturedProducts = () => {
   const products = [
     {
       id: 1,
-      name: "Vitality Boost Multivitamin",
-      description: "Complete daily nutrition with organic vitamins and minerals",
-      price: "$39.99",
-      image: "https://images.unsplash.com/photo-1552902837-2e7d8fa1436c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+      name: "4-in-1 Ginseng Coffee",
+      description: "Ginseng Coffee is made of superior ginseng extract and the best coffee beans.", 
+      price: "KES 2100",
+      image: "/assets/gin.jpg",
       badge: "Bestseller"
     },
     {
       id: 2,
-      name: "Organic Turmeric Curcumin",
-      description: "Powerful anti-inflammatory support with black pepper",
-      price: "$29.99",
-      image: "https://images.unsplash.com/photo-1585435557343-3b092031d5ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
-      badge: "Anti-inflammatory"
+      name: "Vitamin C Chewable Tablets",
+      description: "BF Suma Vitamin C provides a tasty and easy solution for a happy, healthy child",
+      price: "KES 3400",
+      image: "/assets/Vit.jpg",
+      badge: "Cognitive Support"
     },
     {
       id: 3,
-      name: "Sleep Well Magnesium Complex",
-      description: "Natural relaxation and sleep support formula",
-      price: "$34.99",
-      image: "https://images.unsplash.com/photo-1598042076322-77ee00dae0c6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
-      badge: "Restorative"
+      name: "Arthro Xtra Tabltes",
+      description: "Glucosamine, Chondroitin, MSM & Turmeric for joint support",
+      price: "KES 9000",
+      image: "/assets/Athro.jpg",
+      badge: "Joint Health"
     },
     {
       id: 4,
-      name: "Probiotic Gut Health",
-      description: "10-strain probiotic for digestive wellness",
-      price: "$44.99",
-      image: "https://images.unsplash.com/photo-1590301157890-4810ed352733?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
+      name: "NTDiarr Pills",
+      description: "Natural anti-diarrheal with activated charcoal and probiotics",
+      price: "KES 2000",
+      image: "/assets/NT.jpg",
       badge: "Digestive Aid"
     }
   ];
@@ -100,9 +101,9 @@ const FeaturedProducts = () => {
 
         {/* Minimal CTA */}
         <div className="text-center">
-          <button className="inline-flex items-center px-6 py-3 border border-amber-600 text-amber-600 hover:bg-amber-600 hover:text-white rounded-lg font-medium transition-all duration-300">
+          <Link to="/shop" className="inline-flex items-center px-6 py-3 border border-amber-600 text-amber-600 hover:bg-amber-600 hover:text-white rounded-lg font-medium transition-all duration-300">
             View All Products
-          </button>
+          </Link>
         </div>
 
         {/* Minimal Trust Indicators */}

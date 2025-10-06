@@ -7,7 +7,7 @@ const OurStorySection = () => {
     <section className="py-5 bg-white">
       <div className="container mx-auto px-4 max-w-6xl">
         {/* Centered Header */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-8">
           <h2 className="text-2xl lg:text-4xl font-light text-gray-900 mb-4">
             Our Story
           </h2>
@@ -18,9 +18,9 @@ const OurStorySection = () => {
           {/* Visual Timeline */}
           <div className="relative">
             {/* Main Image */}
-            <div className="bg-white rounded-2xl p-6 border border-amber-100 shadow-sm">
+            <div className="bg-white rounded-2xl p-2 border border-amber-100 shadow-sm">
               <img
-                src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                src="/assets/about.jpg"
                 alt="DG Consult Team Collaboration"
                 className="w-full h-64 object-cover rounded-lg mb-6"
               />

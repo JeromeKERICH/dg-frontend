@@ -16,7 +16,7 @@ const Testimonials = () => {
     },
     {
       id: 2,
-      name: "Michael Chen",
+      name: "Michael Joseph",
       role: "Career Mentorship",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80",
       text: "The guidance I received helped me navigate my career transition with confidence. The holistic approach made all the difference.",
@@ -36,9 +36,7 @@ const Testimonials = () => {
     setCurrentSlide((prev) => (prev + 1) % testimonials.length);
   };
 
-  const prevSlide = () => {
-    setCurrentSlide((prev) => (prev - 1 + testimonials.length) % testimonials.length);
-  };
+
 
   const goToSlide = (index) => {
     setCurrentSlide(index);
@@ -94,11 +92,7 @@ const Testimonials = () => {
 
                     {/* Client Info */}
                     <div className="flex items-center justify-center">
-                      <img
-                        src={testimonial.image}
-                        alt={testimonial.name}
-                        className="w-12 h-12 rounded-full object-cover mr-4"
-                      />
+                     
                       <div className="text-left">
                         <div className="font-medium text-gray-900">{testimonial.name}</div>
                         <div className="text-sm text-gray-500">{testimonial.role}</div>
