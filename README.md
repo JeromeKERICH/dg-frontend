@@ -1,10 +1,8 @@
-#
-DG Consult – Project README
-Overview
+DG Consult – Project Overview
 
-DG Consult (Desires to Gold Consultants Ltd) is a professional consulting firm focused on empowering individuals and organizations through wellness, mentorship, and personal development.
+DG Consult (Desires to Gold Consultants Ltd) is a professional consulting firm dedicated to empowering individuals and organizations through wellness, mentorship, and personal development.
 
-The brand’s vision is to transform lives from potential to purpose by promoting holistic wellness, entrepreneurial thinking, and continuous personal growth across different life and career stages.
+The brand’s vision is to transform lives from potential to purpose through holistic growth, entrepreneurial thinking, and lifelong learning.
 
 Core Purpose
 
@@ -14,11 +12,11 @@ Key Focus Areas
 
 DG Consult operates under three main pillars:
 
-Wellness Division
+1. Wellness Division
 
-Focus: Health, screening, and organic nutritional supplements.
+Focus: Health, lifestyle screening, and organic nutritional supplements.
 
-Services:
+Services Include:
 
 Comprehensive body screening (Bioscan)
 
@@ -26,40 +24,76 @@ Nutritional supplement consultations
 
 Lifestyle & preventive health programs
 
-Integration with corporate wellness packages
+Corporate wellness integrations
 
-Mentorship Division
+2. Mentorship Division
 
-Focus: Personal and professional growth across four target audiences.
+Focus: Personal and professional growth across multiple target audiences.
 
-Categories:
+Mentorship Categories:
 
-Wellness Mentorship – guiding individuals to sustain healthy, balanced lifestyles.
+Wellness Mentorship – lifestyle guidance and healthy routines
 
-Fresh Graduates Mentorship – career transition, entrepreneurship, and confidence building.
+Fresh Graduates Mentorship – career transition, confidence, entrepreneurship
 
-Retirees Mentorship – post-retirement purpose, entrepreneurship, and financial stability.
+Retirees Mentorship – post-retirement purpose, business training, financial wellness
 
-Corporate Mentorship – leadership, employee wellness, and workplace productivity.
+Corporate Mentorship – leadership development, employee wellness, productivity strategies
 
-E-Commerce (Wellness Products)
+3. E-Commerce (Wellness Products)
 
-A product shop for DG Consult’s organic supplements and wellness products.
+An online shop for DG Consult’s organic supplements and wellness products.
 
-Integrated payment gateway (Paystack) for easy purchases.
+Features:
 
-Goal: Generate revenue and support clients’ wellness journeys through recommended products.
+Product showcase
+
+Secure online payments via Paystack
+
+Supplements recommended within mentorship and wellness programs
 
 Website Structure
 
-PagePurposeKey Features
-HomeIntroduce DG Consult and its three pillarsHero intro, overview of services, featured programs, testimonials, CTA
-AboutPresent DG Consult’s story, mission, and visionCompany background, founder section, values
-WellnessShowcase health services and supplement productsProduct listings, Bioscan service, health education, eCommerce integration
-MentorshipCentral hub for all mentorship programsOverview + links to Wellness, Fresh Graduates, Retirees, and Corporate pages
-Wellness MentorshipPersonal health guidanceLifestyle coaching, wellness routines, supplement recommendations
-Fresh GraduatesTransition & entrepreneurship guidanceCareer prep, self-discovery, business training
-RetireesLife after work empowermentPurpose discovery, business mentorship, community building
-Corporate ProgramsWorkplace development & wellnessLeadership training, employee wellness, team productivity programs
-Contact / Book SessionLead capture and consultationsContact form, booking form, map integration
-ShopProduct listing & checkoutProduct details, add-to-cart, Paystack payment flow
+Below is the layout of the website and what each page covers:
+
+Home
+
+Introduces DG Consult and its main pillars
+
+Hero intro, service overview, featured programs, testimonials, call-to-action buttons
+
+About
+
+Company background, mission, vision, values, founder profile
+
+Wellness
+
+Health services, product listings, Bioscan information, wellness education, eCommerce integration
+
+Mentorship
+
+Overview page linking to each mentorship category
+
+Wellness Mentorship
+
+Lifestyle coaching, wellness routines, supplement recommendations
+
+Fresh Graduates
+
+Career preparation, self-discovery, entrepreneurship guidance
+
+Retirees
+
+Purpose discovery, business mentorship, post-retirement development
+
+Corporate Programs
+
+Leadership development, employee wellness, workplace productivity tools
+
+Contact / Book Session
+
+Contact form, booking form, Google Maps integration
+
+Shop
+
+Product catalogue, product details, add-to-cart, Paystack payment flow
